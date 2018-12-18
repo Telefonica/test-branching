@@ -1,6 +1,6 @@
 #!groovy
 pipeline {
-  agent { label 'smartsteps-bespoke-edmond-backend' }
+  agent { label 'master' }
   environment {
     DOCKER_HOST = "tcp://docker-builder.hi.inet:4243"
     DOCKER_API_VERSION = "1.21"
