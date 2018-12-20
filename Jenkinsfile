@@ -34,7 +34,7 @@ pipeline {
       }
       post {
         always {
-          sh "echo adios"
+          sh "echo adios."
         }
       }
     }
